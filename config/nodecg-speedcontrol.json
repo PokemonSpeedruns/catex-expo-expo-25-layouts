@@ -1,0 +1,36 @@
+{
+  "customData": {
+    "run": [
+      {
+        "name": "Comm1 Name",
+        "key": "commentator1Name"
+      },
+      {
+        "name": "Comm1 Pronouns",
+        "key": "commentator1Pronouns"
+      },
+      {
+        "name": "Comm2 Name",
+        "key": "commentator2Name"
+      },
+      {
+        "name": "Comm2 Pronouns",
+        "key": "commentator2Pronouns"
+      },
+      {
+        "name": "Comm3 Name",
+        "key": "commentator3Name"
+      },
+      {
+        "name": "Comm3 Pronouns",
+        "key": "commentator3Pronouns"
+      }
+    ],
+    "player": [
+      {
+        "name": "Tracker Key",
+        "key": "trackerKey"
+      }
+    ]
+  }
+}

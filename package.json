@@ -1,0 +1,46 @@
+{
+  "name": "catex-expo-expo-25-layouts",
+  "version": "0.0.1",
+  "description": "Layouts for the CatEx Expo Expo 2025",
+  "author": {
+    "name": "PokemonSpeedruns"
+  },
+  "files": [
+    "graphics"
+  ],
+  "keywords": [
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^2.0.0",
+    "graphics": [
+      {
+        "file": "16x9_1p.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "16x9_2p.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "LetsGo_2p.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "Intermission.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "Omnibar.html",
+        "width": 1920,
+        "height": 99
+      }
+    ]
+  },
+  "repository": "https://github.com/PokemonSpeedruns/catex-expo-expo-25-layouts.git",
+  "license": "Apache-2.0"
+}

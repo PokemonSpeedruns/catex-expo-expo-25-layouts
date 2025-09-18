@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {
+        "tiltify": {
+            "active": false,
+            "campaignID": 123456,
+            "authToken": "",
+            "refreshTime": 20000
+        },
+        "oengus": {
+            "active": false,
+            "marathonShort": "<marathon_shortname>",
+            "useSandbox": false,
+            "refreshTime": 20000
+        },
+        "indiethonTracker": {
+            "active": false,
+            "eventShort": "",
+            "apiUrl": "https://example.com/api",
+            "token": ""
+        },
+        "customData": {
+            "useCustomHost": false
+        },
+        "sponsor": {
+            "fadeInTime": 750,
+            "dwellTime": 10000,
+            "fadeOutTime": 750
+        },
+        "omnibar": {
+            "showHost": false,
+            "showGoal": false,
+            "numRuns": 3,
+            "numTargets": 2,
+            "numBidwars": 2,
+            "numPrizes": 2,
+            "fadeInTime": 750,
+            "dwellTime": 10000,
+            "fadeOutTime": 750
+        }
+    }
+}

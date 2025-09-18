@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+	  
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/common.css" />
+      <link rel="stylesheet" href="css/16x9_1p.css" />
+      <style>
+         body {
+         background: url('img/layouts/16x9_1p.png') no-repeat;
+         }
+      </style>
+	  
+      <!-- JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/layouts/game-layout.js"></script>
+      <script src="js/utils.js"></script>
+      <script src="js/timer.js"></script>
+   </head>
+   <body>
+   
+      <!-- Runner details -->
+      <div class="runner-container" id="runner-container1">
+         <div class="runner-name" id="runner-name1"></div>
+         <div class="pronouns" id="pronouns1"></div>
+      </div>
+
+      <div class="comms-container" id="comms-container1">
+         <div class="comms-name" id="commentator1Name"></div>
+         <div class="comms-pronouns" id="commentator1Pronouns"></div>
+      </div>
+      <div class="comms-container" id="comms-container2">
+         <div class="comms-name" id="commentator2Name"></div>
+         <div class="comms-pronouns" id="commentator2Pronouns"></div>
+      </div>
+      <div class="comms-container" id="comms-container3">
+         <div class="comms-name" id="commentator3Name"></div>
+         <div class="comms-pronouns" id="commentator3Pronouns"></div>
+      </div>
+	  
+      <!-- Game details -->
+      <div id="game-name"></div>
+      <!-- <div id="host"></div> -->
+	  
+      <!-- Game info -->
+      <div id="info-container">
+         <div id="category"></div>
+      </div>
+	  
+      <!-- Timer -->
+      <div id="timer"></div>
+      
+      <!-- Estimate -->
+      <div id="estimate-container">
+         <div id="estimate-label">
+         <img src="img/common/timer.svg" />
+         </div>
+         <div id="estimate"></div>
+      </div>
+   </body>
+</html>
