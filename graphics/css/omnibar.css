@@ -6,9 +6,9 @@ body {
     position: absolute;
     background-color: #ffff00;
     display: flex;
-    width: 1070px;
+    width: 1040px;
     height: 100px;
-    left: 850px;
+    left: 880px;
 }
 
 #omnibar > * {
