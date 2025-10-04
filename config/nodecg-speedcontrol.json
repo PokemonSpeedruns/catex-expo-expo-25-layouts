@@ -25,12 +25,6 @@
         "name": "Comm3 Pronouns",
         "key": "commentator3Pronouns"
       }
-    ],
-    "player": [
-      {
-        "name": "Tracker Key",
-        "key": "trackerKey"
-      }
     ]
   }
 }
