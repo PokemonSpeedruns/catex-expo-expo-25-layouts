@@ -18,9 +18,11 @@ NodeCG.waitForReplicants(runDataArray, runDataActiveRun).then(() => {
 		else if (index === 1)
 			setOmnibarHtml(`<p class="is-single-line is-text-centered">Follow us on YouTube: @PokemonSpeedRunsPSR</p>`)
 		else if (index === 2)
-			setOmnibarHtml(`<p class="is-single-line is-text-centered">Follow us on Twitter: @PkmnSpeedRuns</p>`)
+			setOmnibarHtml(`<p class="is-single-line is-text-centered">Follow us on Twitter/X: @PkmnSpeedRuns</p>`)
 		else if (index === 3)
-			setOmnibarHtml(`<p class="is-single-line is-text-centered">Follow us on Instagram: pkmnspeedruns</p>`)
+			setOmnibarHtml(`<p class="is-single-line is-text-centered">Follow us on Bluesky: @pokemonspeedruns.bsky.social</p>`)
+		else if (index === 4)
+			setOmnibarHtml(`<p class="is-single-line is-text-centered">Follow us on Instagram: @pkmnspeedruns</p>`)
 		else 
 			setOmnibarHtml(`<p class="is-single-line is-text-centered">Join the PSR Subreddit: r/pkmnspeedruns</p>`)
 	}
@@ -66,7 +68,7 @@ NodeCG.waitForReplicants(runDataArray, runDataActiveRun).then(() => {
 				staticText(staticIndex)
 				staticIndex++;
 
-				if (staticIndex > staticText.length + 3) { // +3 as quick fix to showing the 5 social platforms in static text, need to figure out why staticText.length only = 1
+				if (staticIndex > staticText.length + 4) { // +4 as quick fix to showing the 6 social platforms in static text, need to figure out why staticText.length only = 1
 					rewardIndex = pollIndex = targetIndex = runIndex = staticIndex = 0;
 				}
 			}
